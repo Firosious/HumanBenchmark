@@ -1,0 +1,119 @@
+body {
+    background-color: #F7EDE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+  
+#startButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #63B0CD;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+}
+  
+#startButton:hover {
+    background-color: #0056b3;
+}
+
+#button{
+	box-shadow: 0px 4px 0px 0px #2c7318;
+	border-radius:13px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 17px;
+	text-decoration:none;
+}
+
+.bottom-center {
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #023C40;
+    color: white;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+      
+#wordDisplay {
+    margin-top: 20px;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+#choiceDisplay {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1em;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#choiceDisplay button{
+    box-shadow: 0px 4px 0px 0px; 
+    border-radius:13px; 
+    border:1px solid; 
+    font-size:20px; 
+    font-weight:bold; 
+    width: 150px;
+    height: 50px;
+    
+}
+
+#choiceDisplay button:hover {
+    background-color: #ddd;
+}
+
+#gameArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
